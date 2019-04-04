@@ -4,7 +4,7 @@ var Messages = ({ cards }) => {
   return (
     <div>
       {cards.map(cardObject => (
-        <span className="cardObject">{cardObject.message}</span>
+        <li className="cardObject">{cardObject.message}</li>
       ))}
     </div>
   );
