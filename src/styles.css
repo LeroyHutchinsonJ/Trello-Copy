@@ -9,8 +9,6 @@ html {
   background: rgba(129, 127, 132, 0.7);
   border-radius: 5px;
   width: 400px;
-  position: absolute;
-  left: 100px;
 }
 .cardName {
   font-size: 15px;

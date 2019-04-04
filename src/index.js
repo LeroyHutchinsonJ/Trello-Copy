@@ -6,9 +6,22 @@ import Card from "./card.js";
 
 function App() {
   return (
-    <div className="App">
-      <Card cards={cards} />
-    </div>
+    <table className="App">
+      <tr>
+        <td>
+          {" "}
+          <Card cards={cards} />
+        </td>
+        <td>
+          {" "}
+          <Card cards={cards} />
+        </td>
+        <td>
+          {" "}
+          <Card cards={cards} />
+        </td>
+      </tr>
+    </table>
   );
 }
 var cards = [
