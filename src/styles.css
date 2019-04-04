@@ -1,5 +1,5 @@
 html {
-  background-color: #40599c;
+  background-color: #68d950;
 }
 .App {
   font-family: sans-serif;
@@ -33,12 +33,13 @@ html {
 .cardObject {
   padding: 10px;
   background-color: #f6f6f6;
-  width: 300px;
+  width: 350px;
   position: relative;
-  left: 40px;
+  left: 5px;
   bottom: 20px;
   border-radius: 5px;
   margin: 10px;
+  border-bottom: 1px solid black;
 }
 li {
   list-style-type: none;
